@@ -6,11 +6,11 @@
     <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <body ng-controller="mainCtrl as main">
-<h1>Plot: {{main.type}}</h1>
+<h1>Plot: {{main.text}}</h1>
 
 <div id="ctrls">
-    <p class="button" ng-click="main.utopia();">Utopia</p>
-    <p class="button" id="nightmare">Nightmare</p>
+    <p class="button" ng-click="main.black();">Black</p>
+    <p class="button" id="nightmare">Good</p>
     <br/>
     <p class="button red" id="broken">Doesn't work</p>
     <p class="button green" ng-click="main.initData();">Restore</p>

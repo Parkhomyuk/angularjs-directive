@@ -13,7 +13,7 @@ angular.module('app')
                 drawPlot();
             }, true);
 
-            var broken = function () {
+            var def = function () {
                 scope.data = [
                     ['Chrome', 33.3],
                     ['Firefox', 33.3],
@@ -21,7 +21,7 @@ angular.module('app')
                 ];
             };
 
-            var nightmare = function () {
+            var black = function () {
                 scope.$apply(function () {
                     scope.data = [
                         ['Chrome', 0.0],
@@ -62,8 +62,8 @@ angular.module('app')
                 });
             }
 
-            $("#nightmare").on('click', nightmare);
-            $("#broken").on('click', broken);
+            $("#nightmare").on('click', black);
+            $("#broken").on('click', def);
 
         }
     });

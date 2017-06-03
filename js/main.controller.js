@@ -2,7 +2,7 @@
 angular.module('app')
     .controller('mainCtrl', function(){
         var vn= this;
-        vn.text="Shalom";
+        vn.text="Shalom dafdefanim";
 
         vn.type = 'Browser Market Share';
 
